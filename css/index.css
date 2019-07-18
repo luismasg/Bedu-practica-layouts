@@ -1,0 +1,35 @@
+body {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+article {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  justify-content: space-evenly;
+  /* border: 1px solid #ddd; */
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #ccc;
+}
+div {
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 50px;
+  transition: all 0.3s;
+  background-color: #ddd;
+}
+div:hover {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  color: steelblue;
+}
